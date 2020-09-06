@@ -1,2 +1,16 @@
 # Jojonomic-test
-Test IT Infrastructure Engineer 
+Berisikan dua buah script bash mengenai mereplace value dari colomn inputan file kartu kredit
+
+sebagai contoh inputannya seperti ini 
+
+Sample Input
+1234 5678 9101 1234
+2999 5178 9101 2234
+9999 5628 9201 1232
+8888 3678 9101 1232
+
+Sample Output
+1234 9101 5678 1234
+2234 9101 5178 2999
+1232 9201 5628 9999
+1232 9101 3678 8888
